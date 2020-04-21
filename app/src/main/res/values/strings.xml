@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quarantin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="monopoly">Можно играть в настольные игры с близкими</string>
+    <string name="find">Найти занятие</string>
+    <string name="sport">Самое время поддерживать форму или начать заниматься спортом</string>
+    <string name="make_music">Почему бы не попробовать писать музыку?</string>
+</resources>
