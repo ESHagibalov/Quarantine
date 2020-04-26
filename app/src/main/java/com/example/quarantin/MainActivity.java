@@ -12,6 +12,9 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
+    int num = -1;
+    int last = -1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,10 +22,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private int random_range() {
-        int num;
+        while(num == last) {
+            Random rand = new Random();
+            num = rand.nextInt(10);
+        }
 
-        Random rand = new Random();
-        num = rand.nextInt(3);
+        last = num;
 
         return num;
     }
@@ -39,6 +44,27 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case 2:
                 picture = new make_music();
+                break;
+            case 3:
+                picture = new delivery();
+                break;
+            case 4:
+                picture = new audiobooks();
+                break;
+            case 5:
+                picture = new finance();
+                break;
+            case 6:
+                picture = new clean_home();
+                break;
+            case 7:
+                picture = new programming();
+                break;
+            case 8:
+                picture = new vyshivka();
+                break;
+            case 9:
+                picture = new travel();
                 break;
             default:
                 break;
