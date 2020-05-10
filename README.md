@@ -12,5 +12,5 @@ By button "Найти занятие" it is replaced by another random fragment:
 ![alt text](7.jpg)
 ![alt text](8.jpg)
 ![alt text](9.jpg)
-![alt text](10.jpg)
+![alt text](10.jpg) \n
 Fragments always change. App can't shows two same in a row
