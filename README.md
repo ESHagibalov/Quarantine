@@ -1,7 +1,9 @@
 # Quarantine
 **Random activity generator**
 =====
-First on the main screen main fragment ![alt text](0.jpg)
+First on the main screen main fragment 
+
+![alt text](0.jpg)
 
 By button "Найти занятие" it is replaced by another random fragment:
 
